@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/login"
@@ -9,16 +8,18 @@
 
     <EditText
         android:id="@+id/login_EmailAddress"
-        android:layout_width="351dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:autofillHints="@string/example_email"
         android:ems="10"
         android:hint="@string/Email_hint"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="@+id/SignIn_message"
         app:layout_constraintStart_toStartOf="@+id/SignIn_message"
-        app:layout_constraintTop_toBottomOf="@+id/Google_SignIn_message"
-        android:autofillHints="@string/example_email" />
+        app:layout_constraintTop_toBottomOf="@+id/Google_SignIn_message" />
 
     <TextView
         android:id="@+id/SignIn_message"
@@ -43,6 +44,20 @@
         app:layout_constraintEnd_toEndOf="@+id/SignIn_message"
         app:layout_constraintStart_toStartOf="@+id/SignIn_message"
         app:layout_constraintTop_toBottomOf="@+id/SignIn_message" />
+
+    <TextView
+        android:id="@+id/learn_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/LearnMore_button"
+        android:textColor="#3045BA"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        app:layout_constraintStart_toEndOf="@+id/Google_SignIn_message"
+        app:layout_constraintTop_toBottomOf="@+id/SignIn_message"
+        />
 
     <TextView
         android:id="@+id/ForgotEmail_text"
@@ -97,8 +112,6 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="@+id/SignIn_message"
         app:srcCompat="@drawable/bettericon" />
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

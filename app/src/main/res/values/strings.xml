@@ -8,4 +8,23 @@
     <string name="ForgotEmail_button">FORGOT MAIL?</string>
     <string name="CreateAccount_button">Create account</string>
     <string name="next_button">Next</string>
+    <string name="email_error_message">Invalid email address</string>
+    <string name="license_text">By law, you have certain rights that can’t be limited by a contract like these terms of service. These terms are in no way intended to restrict those rights.
+
+These terms describe the relationship between you and Google. They don’t create any legal rights for other people or organizations, even if others benefit from that relationship under these terms.
+
+We want to make these terms easy to understand, so we’ve used examples from our services. But not all services mentioned may be available in your country.
+
+If these terms conflict with the service-specific additional terms, the additional terms will govern for that service.
+
+If it turns out that a particular term is not valid or enforceable, this will not affect any other terms.
+
+If you don’t follow these terms or the service-specific additional terms, and we don’t take action right away, that doesn’t mean we’re giving up any rights that we may have, such as taking action in the future.
+
+We may update these terms and service-specific additional terms (1) to reflect changes in our services or how we do business — for example, when we add new services, features, technologies, pricing, or benefits (or remove old ones), (2) for legal, regulatory, or security reasons, or (3) to prevent abuse or harm.
+
+If we materially change these terms or service-specific additional terms, we’ll provide you with reasonable advance notice and the opportunity to review the changes, except (1) when we launch a new service or feature, or (2) in urgent situations, such as preventing ongoing abuse or responding to legal requirements. If you don’t agree to the new terms, you should remove your content and stop using the services. You can also end your relationship with us at any time by closing your Google Account.</string>
+    <string name="check_agreement">I am agree with License</string>
+    <string name="email_verify">confirm ( %1$s ) is verified email</string>
+    <string name="term_of_service">Terms of Service</string>
 </resources>

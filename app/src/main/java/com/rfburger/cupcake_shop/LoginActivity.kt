@@ -24,7 +24,7 @@ class LoginActivity : AppCompatActivity() {
         val nextButton : Button = findViewById(R.id.Next_button)
         nextButton.setOnClickListener {
             val emailAddress = enteredEmail.text.toString()
-            if(emailAddress != null){
+            if(emailAddress.isNotEmpty()){
                 val licenseAgreementIntent = Intent(this , LicenseAgreement::class.java)
                 licenseAgreementIntent.putExtra("key_emailAddress" , emailAddress)
                 startActivity(licenseAgreementIntent)
